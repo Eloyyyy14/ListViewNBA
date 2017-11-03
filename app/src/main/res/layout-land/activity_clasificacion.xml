@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elo14.listviewnba.Clasificacion">
+
+    <ImageView
+        android:id="@+id/imgLiga"
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/clasificaciones"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvLiga"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Clasificación liga regular 2016/2017"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvPlayoffs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Resultado Playoffs 2017"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgPlayoffs"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/playoffs"
+        android:layout_alignTop="@+id/imgLiga"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.elo14.listviewnba">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icononba2"
@@ -9,10 +11,10 @@
         android:roundIcon="@mipmap/icononba2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".SplashScreen"
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,6 +22,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetalleActivity" />
+        <activity
+            android:name=".PaginaWeb"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Clasificacion"></activity>
     </application>
 
 </manifest>

@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,9 +19,9 @@ import java.util.List;
 public class Adaptador extends BaseAdapter {
 
     Context contexto; //contexto de la aplicacion
-    List<Datos> ListaObjetos; //lista de datos a generar. Podemos usar tb un ArrayList
+    ArrayList<Datos> ListaObjetos; //lista de datos a generar. Podemos usar tb un ArrayList
 
-    public Adaptador(Context contexto, List<Datos> listaObjetos) {
+    public Adaptador(Context contexto, ArrayList<Datos> listaObjetos) {
         this.contexto = contexto;
         ListaObjetos = listaObjetos;
 
