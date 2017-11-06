@@ -59,7 +59,6 @@ public class Datos implements Serializable{
         return url;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+    public void setUrl(String url) { this.url = url; }
+
 }

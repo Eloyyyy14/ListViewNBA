@@ -37,8 +37,9 @@ public class DetalleActivity extends AppCompatActivity {
         imagenEstadio.setImageResource(obj.getImagenEstadio());
     }
 
-    public void paginaweb(View v){
+    public void paginaweb(AdapterView vistaAdaptador, View v, int  i, long k){
         Intent lp = new Intent(this, PaginaWeb.class);
+        lp.putExtra("url", ListaObjetos.get(i).getUrl());
         startActivity(lp);
     }
 }
