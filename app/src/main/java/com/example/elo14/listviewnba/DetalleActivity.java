@@ -20,7 +20,7 @@ public class DetalleActivity extends AppCompatActivity {
     ImageView imagenEstadio;
     TextView nombre;
     TextView detalle;
-    ArrayList<Datos> ListaObjetos;
+    Datos obj;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,15 +31,15 @@ public class DetalleActivity extends AppCompatActivity {
         nombre = (TextView) findViewById(R.id.tvTitulo);
         detalle = (TextView) findViewById(R.id.tvDetalle);
 
-        Datos obj = (Datos) getIntent().getExtras().getSerializable("objeto");
+        obj = (Datos) getIntent().getExtras().getSerializable("objeto");
         nombre.setText(obj.getNombre());
         detalle.setText(obj.getDetalle());
         imagenEstadio.setImageResource(obj.getImagenEstadio());
     }
 
-    public void paginaweb(AdapterView vistaAdaptador, View v, int  i, long k){
+    public void paginaweb(View view){
         Intent lp = new Intent(this, PaginaWeb.class);
-        lp.putExtra("url", ListaObjetos.get(i).getUrl());
+        lp.putExtra("url", obj.getUrl());
         startActivity(lp);
     }
 }
