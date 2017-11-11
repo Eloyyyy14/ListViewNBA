@@ -41,5 +41,6 @@ public class DetalleActivity extends AppCompatActivity {
         Intent lp = new Intent(this, PaginaWeb.class);
         lp.putExtra("url", obj.getUrl());
         startActivity(lp);
+        overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
     }
 }

@@ -1,10 +1,43 @@
 <resources>
-    <string name="app_name">ListViewNBA</string>
+    <string name="app_name">Información NBA</string>
+    <string name="btnClasificaciones">Clasificaciones 2016/2017</string>
+    <string name="btnInfo">Más Información</string>
+    <string name="lblRegular">Clasificación liga regular 2016/2017</string>
+    <string name="lblPlayoffs">Resultado Playoffs 2017</string>
 
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
+<!--Prueba internacionalizacion array-->
+<!--
+    <string-array name="equipos">
+        <item>1, Atlanta Hawks, Atlanta Hawks es un equipo de baloncesto de la NBA con sede en la ciudad de Atlanta, Georgia. El equipo fue fundado en 1946, R.mipmap.logohawks, R.mipmap.estadiohawks, https://es.wikipedia.org/wiki/Atlanta_Hawks</item>
+        <item>Boston Celtics es una franquicia de baloncesto en la NBA con sede en Boston, Massachusetts, Estados Unidos. Fundado en 1946</item>
+        <item>Brooklyn Nets es una franquicia de baloncesto de la NBA con sede en Brooklyn. Fundado en 1967</item>
+        <item>Los Charlotte Hornets son un equipo profesional de baloncesto estadounidense con sede en Charlotte, Carolina del Norte. Fundado en 1988</item>
+        <item>Chicago Bulls es un equipo de baloncesto profesional de la NBA con sede en Chicago, Illinois, fundado en 1966. Actualmente juega allí el español Nikola Mirotic</item>
+        <item>Cleveland Cavaliers es un equipo profesional de baloncesto de la NBA con sede en Cleveland, Ohio, fundado en 1970. Actualmente juega allí el español Jose Manuel Calderón</item>
+        <item>Dallas Mavericks es un equipo profesional de baloncesto de la NBA con base en Dallas, Texas. Fundado en 1980.</item>
+        <item>Denver Nuggets es un equipo profesional de baloncesto de la NBA con sede en Denver, Estados Unidos. Fundado en 1967. Actualmente juega allí el español Juancho Hernangómez</item>
+        <item>Los Detroit Pistons es un equipo profesional de baloncesto de la NBA con sede en Auburn Hills, en el área metropolitana de Detroit, Míchigan. Fundado en 1941</item>
+        <item>Golden State Warriors es un equipo profesional de baloncesto que juega en la NBA con base en Oakland, California. Actuales campeones de la NBA, fundado en 1946</item>
+        <item>Houston Rockets es un equipo profesional de baloncesto estadounidense con sede en Houston, Texas. Fundado en 1967</item>
+        <item>Indiana Pacers es un equipo de baloncesto profesional de la NBA con sede en Indianápolis, Indiana.Fundado en 1967</item>
+        <item>Los Angeles Clippers es un equipo de baloncesto de la NBA con sede en Los Ángeles, California. Fundado en 1970.</item>
+        <item>Los Angeles Lakers es un equipo de baloncesto profesional de la NBA con sede en Los Ángeles, California. Fundado en 1946</item>
+        <item>Memphis Grizzlies es un equipo de baloncesto de la NBA con sede en Memphis, Tennessee. Fundado en 1995. Actualmente juega allí el español Marc Gasol</item>
+        <item>Miami Heat es un equipo de baloncesto de la NBA con base en Miami, Florida. Fundado en 1988</item>
+        <item>Milwaukee Bucks es un equipo de baloncesto de la NBA con base en Milwaukee, Wisconsin. Fundado en 1968</item>
+        <item>Minnesota Timberwolves es un equipo de baloncesto que juega en la NBA, y tiene su sede en Minneapolis, perteneciente al estado de Minnesota. Fundado en 1989</item>
+        <item>Los New Orleans Pelicans​ son una franquicia profesional de baloncesto estadounidense con sede en Nueva Orleans, Luisiana. Fundado en 2002</item>
+        <item>Los New York Knicks son una franquicia de baloncesto de la NBA con sede en la ciudad de Nueva York. Fundado en 1946. Actualmente juega allí el español Willy Hernangómez</item>
+        <item>Oklahoma City Thunder es un equipo profesional de baloncesto de la NBA con sede en Oklahoma City. Fundado en 1967. Actualmente juega allí el español Alex Abrines</item>
+        <item>Orlando Magic es una franquicia de la NBA con sede en Orlando, Florida. Fundado en 1989</item>
+        <item>Philadelphia 76ers​, frecuentemente acortado a Sixers, es un equipo de baloncesto de la NBA con sede en Filadelfia, Pensilvania. Fundado en 1946</item>
+        <item>Phoenix Suns es un equipo profesional de baloncesto de la NBA con sede en Phoenix, Arizona fundado en 1968</item>
+        <item>Portland Trail Blazers es un equipo de baloncesto de la NBA con base en Portland, Oregón. Fundado en 1970</item>
+        <item>Sacramento Kings es un equipo de baloncesto de la NBA con base en Sacramento, California. Fundado en 1923</item>
+        <item>San Antonio Spurs es un equipo de baloncesto de la NBA con base en San Antonio, Texas. Fundado en 1967. Actualmente juega allí el español Pau Gasol</item>
+        <item>Toronto Raptors es un equipo de baloncesto de la NBA con sede en Toronto, Canadá. Fundado en 1995. Actualmente juega allí el español Serge Ibaka</item>
+        <item>Utah Jazz es un equipo de la NBA de la ciudad de Salt Lake City, Utah. Fundado en 1974. Actualmente juega allí el español Ricky Rubio</item>
+        <item>Washington Wizards es un equipo profesional de baloncesto de la NBA con sede en la capital de Estados Unidos, Washington D. C. Fundado en 1961</item>
+    </string-array>
+-->
 </resources>

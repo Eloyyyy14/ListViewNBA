@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent paso = new Intent(getApplicationContext(), DetalleActivity.class);
                 paso.putExtra("objeto", (Serializable)obj);
                 startActivity(paso);
+                overridePendingTransition(R.anim.vertical_in, R.anim.vertical_out);
             }
         });
 
@@ -76,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clasificaciones(View v){
-        Intent a=new Intent(this, Clasificacion.class);
-        startActivity(a);
+        startActivity(new Intent(this, Clasificacion.class));
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
 }

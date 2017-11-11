@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NBA Information</string>
+    <string name="btnClasificaciones">2016/2017 Standings</string>
+    <string name="btnInfo">More Information</string>
+    <string name="lblRegular">2016/2017 Regular season standings</string>
+    <string name="lblPlayoffs">2017 Playoffs</string>
+</resources>
