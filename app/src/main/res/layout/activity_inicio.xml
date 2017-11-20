@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondosplash2"
+    tools:context="com.example.elo14.listviewnba.InicioActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvTitulo1"
+        android:layout_marginTop="88dp"
+        app:srcCompat="@mipmap/nbafondo" />
+
+    <TextView
+        android:id="@+id/tvTitulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Información"
+        android:textColor="@android:color/background_dark"
+        android:textSize="50sp" />
+</RelativeLayout>

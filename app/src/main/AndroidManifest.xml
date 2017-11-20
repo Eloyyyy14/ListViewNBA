@@ -6,12 +6,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/icononba2"
+        android:icon="@mipmap/icononba22"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icononba2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Pabellones" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -21,11 +21,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetalleActivity" />
+        <activity android:name=".InicioActivity" />
+        <activity android:name=".DetalleActivityPabellones" />
         <activity
             android:name=".PaginaWeb"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".Clasificacion"></activity>
+        <activity android:name=".Clasificacion" />
+        <activity android:name=".Uniformes" />
+        <activity android:name=".Logos" />
+        <activity android:name=".Jugadores" />
+        <activity android:name=".DetalleActivityEquipaciones" />
+        <activity android:name=".DetalleActivityJugadores" />
+        <activity android:name=".DetalleActivityLogos"></activity>
     </application>
 
 </manifest>

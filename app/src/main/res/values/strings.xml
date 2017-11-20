@@ -5,8 +5,8 @@
     <string name="lblRegular">Clasificación liga regular 2016/2017</string>
     <string name="lblPlayoffs">Resultado Playoffs 2017</string>
 
-<!--Prueba internacionalizacion array-->
-<!--
+    <!--Prueba internacionalizacion array-->
+    <!--
     <string-array name="equipos">
         <item>1, Atlanta Hawks, Atlanta Hawks es un equipo de baloncesto de la NBA con sede en la ciudad de Atlanta, Georgia. El equipo fue fundado en 1946, R.mipmap.logohawks, R.mipmap.estadiohawks, https://es.wikipedia.org/wiki/Atlanta_Hawks</item>
         <item>Boston Celtics es una franquicia de baloncesto en la NBA con sede en Boston, Massachusetts, Estados Unidos. Fundado en 1946</item>

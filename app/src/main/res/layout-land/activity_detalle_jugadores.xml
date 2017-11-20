@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Titulo"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgvJugador"
+        android:layout_width="350dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvEquipo"
+        app:srcCompat="@mipmap/jugadorhornets" />
+
+    <TextView
+        android:id="@+id/tvJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgvJugador"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="71dp"
+        android:layout_toEndOf="@+id/imgvJugador"
+        android:text="Nombre Jugador"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvDetalleJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgvJugador"
+        android:layout_marginStart="21dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp" />
+</RelativeLayout>

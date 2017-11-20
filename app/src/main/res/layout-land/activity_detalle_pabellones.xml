@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvEquipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:text="Titulo"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgvEstadio"
+        android:layout_width="350dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvEquipo"
+        android:layout_weight="0.85"
+        android:adjustViewBounds="false"
+        app:srcCompat="@mipmap/estadioblazers" />
+
+    <TextView
+        android:id="@+id/tvDetalleEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgvEstadio"
+        android:layout_marginStart="12dp"
+        android:layout_weight="0.07"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvPabellon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEquipo"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="74dp"
+        android:layout_toEndOf="@+id/imgvEstadio"
+        android:text="Nombre Pabellon"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>

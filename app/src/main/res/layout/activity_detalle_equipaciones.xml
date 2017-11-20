@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elo14.listviewnba.DetalleActivityEquipaciones">
+
+    <TextView
+        android:id="@+id/tvEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Titulo"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgvEquipacion1"
+        android:layout_width="180dp"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@mipmap/uniformebucks1" />
+
+    <ImageView
+        android:id="@+id/imgvEquipacion2"
+        android:layout_width="180dp"
+        android:layout_height="500dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgvEquipacion1"
+        app:srcCompat="@mipmap/uniformebucks2" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgvEquipacion1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="Uniformes para la temporada 2017/2018 por Nike"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+</RelativeLayout>

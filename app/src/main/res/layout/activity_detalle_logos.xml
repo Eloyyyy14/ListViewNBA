@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elo14.listviewnba.DetalleActivityLogos">
+
+    <TextView
+        android:id="@+id/tvEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Título"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgvLogoActual"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvEquipo"
+        android:layout_marginTop="96dp"
+        app:srcCompat="@mipmap/logobucks" />
+
+    <ImageView
+        android:id="@+id/imgvLogoHistorico"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgvLogoActual"
+        app:srcCompat="@mipmap/logobucks2" />
+
+    <TextView
+        android:id="@+id/tvActual"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/tvDetalleEquipo"
+        android:layout_below="@+id/tvEquipo"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="23dp"
+        android:text="Escudo Actual"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvHistorico"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/tvActual"
+        android:layout_alignBottom="@+id/tvActual"
+        android:layout_alignParentEnd="true"
+        android:text="Escudo Histórico"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvDetalleEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgvLogoActual"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="38dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark" />
+
+</RelativeLayout>
